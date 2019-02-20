@@ -94,7 +94,7 @@ When do you expect us to generate first release of the payroll system?
 
 ## User types
 1. Who is user for the payroll system? What are the types?
-2. What types of bank accounts used to receive payments does each employee have? 
+2. What types of bank accounts used to receive payments does each employee have?
 3. What is the possible size of users? Are they going to increase in 10 years?
 
 ## Audit tracking and history
@@ -118,3 +118,18 @@ When do you expect us to generate first release of the payroll system?
 
 ## Performance
 How many payrolls do your company will generate averagely per second?
+
+
+## Determining Amount
+* What are the maximum and minimum amounts an employee can make?
+* How do you determine how much to pay an employee?
+* Are employees paid by commission, wage, or salary?
+* Should the system handle employee benefits and taxes?
+
+## Accessibility
+* Do you need user interfaces to accommodate users with disabilities?
+* Which languages does it need to support?
+
+## Other
+* What level of encryption do you need?
+* How will the system receive data: reading from files or receiving user input?
