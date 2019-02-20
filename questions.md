@@ -2,6 +2,7 @@
 
 * What is most important to you?
 * How many employees?
+* What is the potential size of employees in a decade?
 * How are employees paid?  
 * Do they use direct deposit?
 * Do you have hourly or salaried workers?
@@ -19,10 +20,31 @@
 * What information does the system need to keep track of?
 * What will the backup system be?
 * How frequently are employees paid?
+* By which ways the empolyees recieve their payments?
 * What will the system actually generate/what reports will it create?
 * What will be sent internally?
 * What will be sent externally?
 * Which users
+* How many payrolls do your company will generage avergely per second as you estimate?
+* What is the database are you using?
+* What types of network and device are you using?
+* When do you expect us to generate first release of the payroll system?
+
+
+## Screens
+* What typs of user interface design do you prefer? (such as concise, business...)
+* What is the main range of color do you want to use in use interface?
+* What's input screen do you want for each type of user?
+
+## Configuration information
+* How much authorization do you want to assign to each types of user?
+* Which part of setting you want to be determined by yourself?
+* Who in your company has authorization to determine all the setting and see everyone's information?
+
+
+## Login
+* Do you company already has Employment ID system?
+* What is your prefer way to find back password?
 
 ## Special exceptions:
 
