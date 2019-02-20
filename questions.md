@@ -1,6 +1,7 @@
 # Questions to ask customers who want us to design a payroll system
 
 * What is most important to you?
+* Why is it needed ?
 * How many employees?
 * What is the potential size of employees in a decade?
 * How are employees paid?  
@@ -25,11 +26,18 @@
 * What will be sent internally?
 * What will be sent externally?
 * Which users
+* Who will be able to have access to this application and how (e.g. just viewing or editing)?
+* Is the application completely new ? (need making a whole stuff) or IS there another application which is already used ? (improve some functions)
+* How do users access the system, website, app or other?
+* How does the application deal with overtime
+* How long will you give time to develop the system ?
+* What kinds of employee are there ? e.g. full time part time J1 VISA(non resident) intern
+* How would you like to deal with when the system broke down (Any back-up plan ?)
+* What information is being stored for each employee?
 * How many payrolls do your company will generage avergely per second as you estimate?
 * What is the database are you using?
 * What types of network and device are you using?
 * When do you expect us to generate first release of the payroll system?
-
 
 ## Screens
 * What typs of user interface design do you prefer? (such as concise, business...)
@@ -40,7 +48,6 @@
 * How much authorization do you want to assign to each types of user?
 * Which part of setting you want to be determined by yourself?
 * Who in your company has authorization to determine all the setting and see everyone's information?
-
 
 ## Login
 * Do you company already has Employment ID system?
@@ -57,9 +64,9 @@
 
 * How does overtime work?
 * Is there weekend pay?
-* Will employees clock in and clock out? 
+* Will employees clock in and clock out?
 * Or, will payment be based upon a set schedule?
-
+* How and should the system handle employee suspensions?
 
 ## Shipping time
 When do you expect us to generate first release of the payroll system?
@@ -71,7 +78,6 @@ When do you expect us to generate first release of the payroll system?
 4. What's input screen do you want for each type of user?
 ## Menus
 1. What the big functions do you want to achieve by this payroll system in terms of each type of user you specified?
-
 
 ## Navigation
 1. What kinds of regulations are the payroll system going to follow?
@@ -95,11 +101,9 @@ When do you expect us to generate first release of the payroll system?
 1. What does this system should do with old and useless data?
 2. What relevant of information do you want to store for employee?
 
-
 ## Security
 1. What devices are you using, and what are you network types?
 2. Do you want us to inspect the security status of the system regularly?
-
 
 ## Configuration information
 1. How much authorization do you want to assign to each types of user?
