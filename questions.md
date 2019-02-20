@@ -1,6 +1,7 @@
 # Questions to ask customers who want us to design a payroll system
 
 * What is most important to you?
+* Why is it needed ?
 * How many employees?
 * How are employees paid?  
 * Do they use direct deposit?
@@ -23,6 +24,15 @@
 * What will be sent internally?
 * What will be sent externally?
 * Which users
+* Who will be able to have access to this application and how (e.g. just viewing or editing)?
+* Is the application completely new ? (need making a whole stuff) or IS there another application which is already used ? (improve some functions)
+* How do users access the system, website, app or other?
+* How does the application deal with overtime
+* How long will you give time to develop the system ?
+* What kinds of employee are there ? e.g. full time part time J1 VISA(non resident) intern
+* How would you like to deal with when the system broke down (Any back-up plan ?)
+* What information is being stored for each employee?
+
 
 ## Special exceptions:
 
@@ -35,6 +45,6 @@
 
 * How does overtime work?
 * Is there weekend pay?
-* Will employees clock in and clock out? 
+* Will employees clock in and clock out?
 * Or, will payment be based upon a set schedule?
-
+* How and should the system handle employee suspensions?
