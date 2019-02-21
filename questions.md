@@ -49,6 +49,7 @@
 * Which part of setting you want to be determined by yourself?
 * Who in your company has authorization to determine all the setting and see everyone's information?
 
+
 ## Login
 * Do you company already has Employment ID system?
 * What is your prefer way to find back password?
@@ -83,6 +84,9 @@ When do you expect us to generate first release of the payroll system?
 1. What kinds of regulations are the payroll system going to follow?
 2. What kinds of report does this system will generate for different organizations? Who is report reader?( such as government, bank?
 3. What kinds of report does this payroll system will generate for each department of the company?
+4. What is the private policy in the countries where you do businees need to follow?
+5. Do you watn us access to your credit history and generate credit report to certain organization?
+
 ##Work flow
 1. What is the payroll work flow in your company?
 2. How is the salary paid? (Week based? Hour based? or other based)
@@ -126,6 +130,22 @@ How many payrolls do your company will generate averagely per second?
 * Are employees paid by commission, wage, or salary?
 * Should the system handle employee benefits and taxes?
 
+##Specifying poetential customer groups and additional service expectation based on their needs (Beyond the software, but more on human resources and work flow special design)
+* Are you start up company or well developed company? 
+ 
+ If it's start up company:
+* Do you want us provide payroll consulting help when emergency occurs? ( If here is yes, in software it needs to build a block for chatting room with one-to-one online consultants)
+* Do you want us link you with potential financial loan resources? (If here is yes, in software will build in an additional block, like social media with loan resources)
+
+* Do you want us provide businees credit service, which we will send your payment history to credit bureaus to help you build credit file?
+
+If it's system developed company:
+* Nothing special here. 
+
+## User guide
+* Which type of user instructions do you prefer? (Like in form of webpage, or vedios, instruction book, or online consulting help)
+
+
 ## Accessibility
 * Do you need user interfaces to accommodate users with disabilities?
 * Which languages does it need to support?
@@ -133,3 +153,6 @@ How many payrolls do your company will generate averagely per second?
 ## Other
 * What level of encryption do you need?
 * How will the system receive data: reading from files or receiving user input?
+
+
+
