@@ -50,3 +50,22 @@
   * U.S.
   * J1 VISA
   * other
+
+#Search system
+* Build in search options (searched by payment history, by employee, by department etc)
+* Build in searched by wrong words, searched by initial.. (aka, error input forgiveness)
+* Different search system interms of different users (Backup probably want to generate database history)
+
+# User instruction in terms of interface
+* Build in user instruction after they sign up and first time use the payroll system (probably with cute arrow)
+* Build in online html instructions with vividely screenshots (in case user searched by google for solution)
+* If possiblee, build the short vedio for the instruction
+
+# User private policy
+* According to government policy, before shipping, build the limitation of authorization of our stuff to access the customer's data 
+
+
+
+
+
+
