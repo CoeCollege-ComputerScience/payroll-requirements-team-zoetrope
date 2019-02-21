@@ -1,8 +1,22 @@
-# General Requirements
+﻿# General Requirements
 * The user can view information about the current pay period.
 * The user can request a report to be generated for the current pay period.
+* The system can handle an arbitrary amount of employees (dynamically allocated memory).
+* The system can receive correctly formatted documents and translate that to payroll information.
+* Users can input employee information directly into the system manually.
 
-#Screens – what screens are needed
+# Payment information
+* User can request payment in check or direct deposit.
+* As a user, I can be paid either hourly or salaried.
+* The system uses U.S. currency.
+* Hourly workers will clock in and out according to a set schedule, and the system will calculate their pay according to their actual work times.
+* Employees can change their set schedule.
+* Schedule changes need approval of managers.
+* The system will calculate overtime pay for hourly workers, including weekend pay.
+* Managers can suspend employees.
+* Suspended employees receive no payment.
+
+# Screens – what screens are needed
 * Login: Login based on access rights (watch one's own, watch everyone or can edit/add data)
 * Home(for managers ?): showing a list of employees and their basic payroll information
 * Past employees' data (if needed)
@@ -10,7 +24,7 @@
 * Add: Add employees' data (admin only)
 * Edit: Edit or Update employees' data (admin only)
 
-#Menus/Navigation – what menus will screens have
+# Menus/Navigation – what menus will screens have
 * Admin(?)
   * Search by name
   * Search by date
@@ -33,13 +47,13 @@
   * watch one's own
   * request a report
 
-#Login
+# Login
 * Passwords for admin should change every week/month
 * Login as watcher
 * Login as admin
 
 
-#User types
+# User types
 * access rights
   * admin
   * watcher(normal employee?)
