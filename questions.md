@@ -63,11 +63,11 @@
 
 ## If there are hourly workers:
 
-* How does overtime work?
-* Is there weekend pay?
-* Will employees clock in and clock out?
-* Or, will payment be based upon a set schedule?
-* How and should the system handle employee suspensions?
+* How does overtime work? NL
+* Is there weekend pay?  NL
+* Will employees clock in and clock out?  NL
+* Or, will payment be based upon a set schedule? NL
+* How and should the system handle employee suspensions?  NL
 
 ## Shipping time
 When do you expect us to generate first release of the payroll system?
