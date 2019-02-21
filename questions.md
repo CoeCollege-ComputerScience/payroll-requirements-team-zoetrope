@@ -1,17 +1,17 @@
 # Questions to ask customers who want us to design a payroll system
 
-* What is most important to you?
-* Why is it needed ?
-* How many employees?
-* What is the potential size of employees in a decade?
-* How are employees paid?  
-* Do they use direct deposit?
-* Do you have hourly or salaried workers?
-* How will information be given to the system?  
-* Will it be manually, or read from other files?
-* Coupled with other systems?
-* If the latter, how do you want schedule changes handled?
-* What currencies will you use?
+* What is most important to you?  -- Not usable to make a requirement
+* Why is it needed ?  --Not usable to make a requirement
+* How many employees?  NL
+* What is the potential size of employees in a decade?  NL
+* How are employees paid?  NL
+* Do they use direct deposit?  NL
+* Do you have hourly or salaried workers?  NL
+* How will information be given to the system?  NL
+* Will it be manually, or read from other files?  NL
+* Coupled with other systems?  NL
+* If the latter, how do you want schedule changes handled?  NL
+* What currencies will you use?  NL
 * Who are the users/what is the security?
 * How long should it retain data? Should it archive payroll data?
 * What O.S. does it need to run on?
@@ -63,11 +63,11 @@
 
 ## If there are hourly workers:
 
-* How does overtime work?
-* Is there weekend pay?
-* Will employees clock in and clock out?
-* Or, will payment be based upon a set schedule?
-* How and should the system handle employee suspensions?
+* How does overtime work? NL
+* Is there weekend pay?  NL
+* Will employees clock in and clock out?  NL
+* Or, will payment be based upon a set schedule? NL
+* How and should the system handle employee suspensions?  NL
 
 ## Shipping time
 When do you expect us to generate first release of the payroll system?
