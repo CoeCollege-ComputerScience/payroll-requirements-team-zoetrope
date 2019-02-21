@@ -131,8 +131,8 @@ How many payrolls do your company will generate averagely per second?
 * Should the system handle employee benefits and taxes?
 
 ##Specifying poetential customer groups and additional service expectation based on their needs (Beyond the software, but more on human resources and work flow special design)
-* Are you start up company or well developed company? 
- 
+* Are you start up company or well developed company?
+
  If it's start up company:
 * Do you want us provide payroll consulting help when emergency occurs? ( If here is yes, in software it needs to build a block for chatting room with one-to-one online consultants)
 * Do you want us link you with potential financial loan resources? (If here is yes, in software will build in an additional block, like social media with loan resources)
@@ -140,7 +140,7 @@ How many payrolls do your company will generate averagely per second?
 * Do you want us provide businees credit service, which we will send your payment history to credit bureaus to help you build credit file?
 
 If it's system developed company:
-* Nothing special here. 
+* Nothing special here.
 
 ## User guide
 * Which type of user instructions do you prefer? (Like in form of webpage, or vedios, instruction book, or online consulting help)
@@ -150,9 +150,6 @@ If it's system developed company:
 * Do you need user interfaces to accommodate users with disabilities?
 * Which languages does it need to support?
 
-## Other
+# New Questions
 * What level of encryption do you need?
 * How will the system receive data: reading from files or receiving user input?
-
-
-
