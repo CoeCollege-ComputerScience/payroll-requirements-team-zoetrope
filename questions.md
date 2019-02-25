@@ -14,7 +14,7 @@
 * What currencies will you use?  NL
 * Who are the users/what is the security?
 * How long should it retain data? Should it archive payroll data?
-* What O.S. does it need to run on?
+* What O.S. does it need to run on? DY
 * Will you need to add more levels/groups of pay?
 * Will this system handle bonuses?
 * What laws/regulations govern this system?
@@ -82,15 +82,15 @@ When do you expect us to generate first release of the payroll system?
 
 ## Navigation
 1. What kinds of regulations are the payroll system going to follow?
-2. What kinds of report does this system will generate for different organizations? Who is report reader?( such as government, bank?
-3. What kinds of report does this payroll system will generate for each department of the company?
+2. What kinds of report does this system will generate for different organizations? Who is report reader?( such as government, bank? DY
+3. What kinds of report does this payroll system will generate for each department of the company? DY
 4. What is the private policy in the countries where you do businees need to follow?
 5. Do you watn us access to your credit history and generate credit report to certain organization?
 
 ##Work flow
 1. What is the payroll work flow in your company?
 2. How is the salary paid? (Week based? Hour based? or other based)
-3. Who are going to pay?
+3. Who are going to pay? DY
 
 ## Login
 1. Do you company already has Employment ID system?
@@ -152,3 +152,5 @@ If it's system developed company:
 # New Questions
 * What level of encryption do you need?
 * How will the system receive data: reading from files or receiving user input? MK
+* In your company, which departments does the payroll system need to keep track of?
+
