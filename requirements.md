@@ -69,6 +69,10 @@
 * department head users can request departmental payment reports
 
 # regular employee user requirements
+* employee user can change personal information 
+  * address
+  * payment method (direct deposit vs. check)
+  * etc.
 * employee users can request a report of their own payment:
   * can request a history of past payments
   * can request a report of current pay period
@@ -102,31 +106,33 @@
 * The system stores information in a external database.
 
 
-#Reports & Status
-* The system will generate unofficial reports in real time for each type of employees
-  * The total amount of payment supposed to be received
-  * Payer
-  * Payee bank account (or check number)
-  * Status
-    * The total amount of payment received before tax  (by day/ by hour/ by week/ by month/ by season / by year)
-    * The total amount of payment in the processing (by day/ by hour/ by week/ by month/ by season / by year)
-    * The total amount of payment newly generated (by day/ by hour/ by week/ by month/ by season / by year)
-    * current status (generated / processing / received) for each payment
-    * For the payments in processing and generated, display the information (tax & calculated based & amoubt for each unit time)
-    * Display the tax amount for each payment (before taxed/ after taxed)
-  * History status record
-    * For each payment, the time when it changing status (generated/ processing/ received)
-    * How long does this payment take from being generated to received
-    * Display the detail information for all received payments (tax & calculated based * amount for each unit time)
-    * Display the tax amount for each payment (before taxed/ after taxed)
-  * tax information
-    * tax type ( ex. federal government)
-    * tax amount
-    * tax returned status
-    * tax returned amount
+# Reports & Status
+* Any reports can printed or downloaded as a PDF
+* The system can generate personal reports for any user, which contain:
+  * gross total income for current pay period
+  * federal tax rate and federal tax deductions
+  * estimated income tax deduction
+  * current payment period status: not yet generated, generated and processing, dispensed
+  * projected net income after tax reductions
+  * hours of work, if user is hourly paid
+* The system can generate personal reports for any past pay period
+* The system will generate unofficial reports in real time for each type of employees, which contain:
   * The unofficial report can be printed as PDF document
   * The unofficial report can be download as PDF document
+* Admin users can generate company reports that contain:
+  * total gross employee pay
+  * number of employees per department
+  * total expected federal tax and local income tax
+  * total gross employee pay per department
+  * total man-hours of work by hourly employees
+* Admin users can generate reports that adhere to all governmental regulations that can be sent to IRS
+* Departmental heads and admin users can generate departmental reports, containing:
+  * a departments total number of employees
+  * personal reports for each departmental employee
+  * total man-hours of work by hourly workers for a department
+  * tax information for each departmental employee
 
+# The following seem a little extraneous and/or difficult to understand
 
 * The official report can be generated
     * The format options can be chosen ( add format options here)
@@ -179,7 +185,7 @@
 * Build in searched by wrong words, searched by initial.. (aka, error input forgiveness)
 * Different search system in terms of different users (Backup probably want to generate database history)
 
-#User instruction in terms of interface
+# User instruction in terms of interface
 * Build the instructions of the system of account number for each type of user
 * Build in user instruction after they sign up and first time use the payroll system (probably with cute arrow)
 * Build in online html instructions with vividely screenshots (in case user searched by google for solution)
