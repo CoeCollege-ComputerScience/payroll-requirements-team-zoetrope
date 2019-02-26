@@ -12,41 +12,41 @@
 * Coupled with other systems?  NL
 * If the latter, how do you want schedule changes handled?  NL
 * What currencies will you use?  NL
-* Who are the users/what is the security?
-* How long should it retain data? Should it archive payroll data?
+* Who are the users/what is the security? AG
+* How long should it retain data? Should it archive payroll data? AG
 * What O.S. does it need to run on? DY
-* Will you need to add more levels/groups of pay?
-* Will this system handle bonuses?
+* Will you need to add more levels/groups of pay? AG
+* Will this system handle bonuses? AG
 * What laws/regulations govern this system?
-* What information does the system need to keep track of?
+* What information does the system need to keep track of? AG
 * What will the backup system be?
-* How frequently are employees paid?
-* By which ways the empolyees recieve their payments?
-* What will the system actually generate/what reports will it create?
+* How frequently are employees paid? AG
+* By which ways the employees receive their payments? AG
+* What will the system actually generate/what reports will it create? AG
 * What will be sent internally?
 * What will be sent externally?
 * Which users
-* Who will be able to have access to this application and how (e.g. just viewing or editing)?
+* Who will be able to have access to this application and how (e.g. just viewing or editing)? AG
 * Is the application completely new ? (need making a whole stuff) or IS there another application which is already used ? (improve some functions)
-* How do users access the system, website, app or other?
-* How does the application deal with overtime
-* How long will you give time to develop the system ?
-* What kinds of employee are there ? e.g. full time part time J1 VISA(non resident) intern
+* How do users access the system, website, app or other? AG
+* How does the application deal with overtime? AG
+* How long will you give time to develop the system ? AG
+* What kinds of employee are there ? e.g. full time part time J1 VISA(non resident) intern?
 * How would you like to deal with when the system broke down (Any back-up plan ?)
-* What information is being stored for each employee?
-* How many payrolls do your company will generage avergely per second as you estimate?
-* What is the database are you using?
-* What types of network and device are you using?
+* What information is being stored for each employee? AG
+* How many payrolls do your company will generate on average per second as you estimate?
+* What is the database are you using? AG
+* What types of network and device are you using? AG
 * When do you expect us to generate first release of the payroll system?
 
 ## Screens
-* What typs of user interface design do you prefer? (such as concise, business...)
-* What is the main range of color do you want to use in use interface?
-* What's input screen do you want for each type of user?
+* What types of user interface design do you prefer? (such as concise, business...) AG
+* What is the main range of color do you want to use in use interface? AG
+* What's input screen do you want for each type of user? AG
 
 ## Configuration information
-* How much authorization do you want to assign to each types of user?
-* Which part of setting you want to be determined by yourself?
+* How much authorization do you want to assign to each types of user? AG
+* Which part of setting you want to be determined by yourself? AG
 * Who in your company has authorization to determine all the setting and see everyone's information?
 
 
@@ -56,10 +56,10 @@
 
 ## Special exceptions:
 
-* How will sick days happen?
-* Vacation days?
-* Pay advancement?
-* Do you want an advance pay option?
+* How will sick days happen? AG
+* Vacation days? AG
+* Pay advancement? AG
+* Do you want an advance pay option? AG
 
 ## If there are hourly workers:
 
@@ -130,7 +130,7 @@ How many payrolls do your company will generate averagely per second?
 * Are employees paid by commission, wage, or salary?
 * Should the system handle employee benefits and taxes? MK
 
-## Specifying poetential customer groups and additional service expectation based on their needs (Beyond the software, but more on human resources and work flow special design)
+## Specifying potential customer groups and additional service expectation based on their needs (Beyond the software, but more on human resources and work flow special design)
 * Are you start up company or well developed company?
  If it's start up company:
 * Do you want us provide payroll consulting help when emergency occurs? ( If here is yes, in software it needs to build a block for chatting room with one-to-one online consultants)
@@ -153,4 +153,4 @@ If it's system developed company:
 * What level of encryption do you need?
 * How will the system receive data: reading from files or receiving user input? MK
 * In your company, which departments does the payroll system need to keep track of?
-
+* Can all employees view all other employees information?
