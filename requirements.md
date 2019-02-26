@@ -132,7 +132,7 @@
   * total man-hours of work by hourly workers for a department
   * tax information for each departmental employee
 
-# The following seem a little extraneous and/or difficult to understand
+# The following seem a little extraneous and/or difficult to understand, or redundant
 
 * The official report can be generated
     * The format options can be chosen ( add format options here)
@@ -168,7 +168,7 @@
   * choose the items on the report ( departments, employees, customers ...)
   * format options (add format otions here for the department of government)
 
-# Regulation
+## Regulation
 * If position is in a state of U.S
   * Follow the minimum wage policy of this state for the empolyees
   * Follow the maximum charge amount policy of this state for the payments
@@ -180,12 +180,12 @@
     * Build the limitation for ANY user in this payroll system to UPLOAD data to the cloud, COPY data
     * Build the limitation for any history record that can not be edit and changed permanently
 
-# Search system
+## Search system
 * Build in search options (searched by payment history, by employee, by department etc)
 * Build in searched by wrong words, searched by initial.. (aka, error input forgiveness)
 * Different search system in terms of different users (Backup probably want to generate database history)
 
-# User instruction in terms of interface
+## User instruction in terms of interface
 * Build the instructions of the system of account number for each type of user
 * Build in user instruction after they sign up and first time use the payroll system (probably with cute arrow)
 * Build in online html instructions with vividely screenshots (in case user searched by google for solution)
