@@ -7,25 +7,28 @@
 * Users can type employees' information by keyboard.
 * System will support English for the first release.
 * System can handle arbitrary amount of money when input.
-* There is a flexible number of users.
+* System can handle an arbitrary amount of users.
+* There are three general types of users: admins, departmental head, and employees.
 
 # Payment information
 * User can request payment in check or direct deposit.
 * As a user, I can be paid either hourly or salaried.
 * The system uses U.S. currency.
 * Hourly workers will clock in and out according to a set schedule, and the system will calculate their pay according to their actual work times.
-* Employees can change their set schedule.
+* Employees can request changes to their set schedule.
 * Employees are not paid during regular time off (e.g. sick days), but they are paid during Paid Time Off.
 * Employees are able to request an advance on pay. Admins must approve.
 * Schedule changes need approval of managers.
 * The system will calculate overtime pay for hourly workers, including weekend pay.
+* Weekend pay is 1.5x pay, overtime is 1.5x pay, and weekend overtime is 2x pay.
 * Managers can suspend employees.
 * Suspended employees receive no payment.
-* System can handle taxes and bonuses.
+* System can calculate and deduct taxes.
+* Management can add bonuses into employee pay.
 * Payers can be company account, employees account, customer account, the bank account of departments
 * Payee can be company account, employees account, customer account, the bank account of departments
 
-# Screens – what screens are needed
+# Screens – what screens are needed (we don't need to put these in our final list, since GUI specification is beyond the perview of this assignment)
 * Login: Login based on access rights (watch one's own, watch everyone or can edit/add data)
 * Home(for managers ?): showing a list of employees and their basic payroll information
 * Past employees' data (if needed)
@@ -35,130 +38,101 @@
 * User interface has a blue and grey color scheme.
 * Business-themed interface
 
-# Menus/Navigation – what menus will screens have
-* Admin users can
-  * Search by name
-  * Search by date
-  * Search by id
-  * click to see each employees' detailed information
-    * edit employees' data
-    * delete employee's data
-  * add employees and their data
-    * name
-    * id
-    * position
-    * date of payment
-    * rate
-    * regular hours
-    * overtime
-    * tax(?)
-    * gross
-  * change status (maybe for those who quit a company)
-* Employee
-  * can watch one's own
-  * can request a report
+# Admin user requirements
+* Admin users can set system user types (change an account from employee to admin and vice versa)
+* Admin users can search for employees by:
+  * name
+  * id
+  * hire date
+* Admin users can edit employee information
+* Admin users can remove employees from the system
+* Admin users can add employees to the system, with the following information:
+  * name
+  * address
+  * id
+  * resident status (U.S. citizen, J1 visa, etc.)
+  * position and department
+  * hire date
+  * salary/hourly wage
+  * payment type (hourly vs salary)
+  * if hourly:
+    * set schedule
+  * payment schedule (weekly, biweekly, monthly)
+* Admin users can request employee reports (see employee report requests)
+* admin users can request company reports
+  * company reports calculate total employee payments
+* Admin users can request departmental report
+  * departmental reports calculate the employee payments for a given department
+
+# Department head user requirements
+* department head users can request personal payment reports
+* department head users can request departmental payment reports
+
+# regular employee user requirements
+* employee user can change personal information 
+  * address
+  * payment method (direct deposit vs. check)
+  * etc.
+* employee users can request a report of their own payment:
+  * can request a history of past payments
+  * can request a report of current pay period
 
 # Login & Registration
-* Registration for first time user
-  * Clarify the account number system for each user
-  * Input ID or company email
-  * Set the password
-    * declare the password requirements ( ex. must contain lower case, upper case, minimum digits etc.)
-    * check the initial setting of password is whether qualified, if not, the page returned to "set the password"
-    * detect the initial setting of password, report "where is the password invalid" on the returned page
-  * Confirm the password ( Send the activation link to the input email)
-  * fill the form for user information (refer to different types of user informatiom)
-  * declare user types by user input
-    * Customers
-    * Employee
-    * department
-    * admin
-* login
-  * Users can login as watcher
-  * Admin users can login as admin
-  * Only account ID and password matched, the login is succesfull
-
-* Password
-  * Passwords for admin should change every week/month
-  * Change password
-    * must login in successfully with old password first
-    * set the new password ( procedure here is same with first time set the password)
-    * Confirm the password
-  * Find back password
-    * User input the related email account
-    * send the activation link to that email
-    * The activation link get to the password ressint page under that user's ID
-* Forget User ID
- * prompt the user to input related emial and reset ID
- * If email doesn't work, input other informations ( ex. Employee ID, name, etc)
- * If the other informations still doesnt' work, display the option 'contact the administrator'
-   * display the administrator's name and contact information
+* System can handle first-time users
+  * System prompts user to enter company email or id
+  * system prompts user to set initial password
+  * System prompts user to re-enter and match password
+  * System prompts user to enter information (id, name, address, etc.)
+  * System sets default user type to basic employee
+* Password requirements:
+  * minimum length of 10 characters
+  * must have a lower case letter, upper case letter, number, and special character
+  * passwords must be updated every month
+    * on successful login, if over a month since last change, prompts user to change password
+* on successful login, system enables appropriate privileges for that login session
+* if login not successful or user forgets password, system prompts user to contact an admin
+  * or, redirects user to email to reset password with a web link
 
 # Security
-* Keep track the login device
- * For each user, keep track the login device by IP address
- * If a new device logged into system, sent an alert email to user's email account
-   * Include user name
-   * Include that login time and position
-   * Include the new device's IP address (  ? )
+* The system tracks each login
+  * system records the ip and account of every login event
+  * if the ip is not previously recorded, the system sends the account email an alert including:
+    * the ip of the login
+    * the time of the login
 
-# Data Storage
-* Store the information on each employee for up to five years after termination/retirement
-      * name
-      * id
-      * position
-      * date of payment
-      * rate
-      * regular hours
-      * overtime
-      * taxes
-      * gross
-* Store system-generated reports indefinitely
-* Backup data should be stored in an external database at a separate location. (?)
+# Data storage/retention
+* The system stores monthly company payment reports indefinitely
+* The system stores employee payment reports and information for up to five years after termination/retirement
+* The system stores information in a external database.
 
 
-# User types
-* The system will deal with different types of user
-  * Customer
-  * Empoyees
-  * department
-  * admin
-* the system will deal with different access rights
-  * admin
-  * watcher(normal employee?)
-* the system will deal with different time workers  
-  * full-time workers
-  * part-time workers
-* the system will deal with different residence information
-  * U.S.
-  * J1 VISA
-  * other
-
-#Reports & Status
-* The system will generate unofficial reports in real time for each type of employees
-  * The total amount of payment supposed to be received
-  * Payer
-  * Payee bank account (or check number)
-  * Status
-    * The total amount of payment received before tax  (by day/ by hour/ by week/ by month/ by season / by year)
-    * The total amount of payment in the processing (by day/ by hour/ by week/ by month/ by season / by year)
-    * The total amount of payment newly generated (by day/ by hour/ by week/ by month/ by season / by year)
-    * current status (generated / processing / received) for each payment
-    * For the payments in processing and generated, display the information (tax & calculated based & amoubt for each unit time)
-    * Display the tax amount for each payment (before taxed/ after taxed)
-  * History status record
-    * For each payment, the time when it changing status (generated/ processing/ received)
-    * How long does this payment take from being generated to received
-    * Display the detail information for all received payments (tax & calculated based * amount for each unit time)
-    * Display the tax amount for each payment (before taxed/ after taxed)
-  * tax information
-    * tax type ( ex. federal government)
-    * tax amount
-    * tax returned status
-    * tax returned amount
+# Reports & Status
+* Any reports can printed or downloaded as a PDF
+* The system can generate personal reports for any user, which contain:
+  * gross total income for current pay period
+  * federal tax rate and federal tax deductions
+  * estimated income tax deduction
+  * current payment period status: not yet generated, generated and processing, dispensed
+  * projected net income after tax reductions
+  * hours of work, if user is hourly paid
+* The system can generate personal reports for any past pay period
+* The system will generate unofficial reports in real time for each type of employees, which contain:
   * The unofficial report can be printed as PDF document
   * The unofficial report can be download as PDF document
+* Admin users can generate company reports that contain:
+  * total gross employee pay
+  * number of employees per department
+  * total expected federal tax and local income tax
+  * total gross employee pay per department
+  * total man-hours of work by hourly employees
+* Admin users can generate reports that adhere to all governmental regulations that can be sent to IRS
+* Departmental heads and admin users can generate departmental reports, containing:
+  * a departments total number of employees
+  * personal reports for each departmental employee
+  * total man-hours of work by hourly workers for a department
+  * tax information for each departmental employee
 
+# The following seem a little extraneous and/or difficult to understand, or redundant
 
 * The official report can be generated
     * The format options can be chosen ( add format options here)
@@ -194,7 +168,7 @@
   * choose the items on the report ( departments, employees, customers ...)
   * format options (add format otions here for the department of government)
 
-# Regulation
+## Regulation
 * If position is in a state of U.S
   * Follow the minimum wage policy of this state for the empolyees
   * Follow the maximum charge amount policy of this state for the payments
@@ -206,12 +180,12 @@
     * Build the limitation for ANY user in this payroll system to UPLOAD data to the cloud, COPY data
     * Build the limitation for any history record that can not be edit and changed permanently
 
-# Search system
+## Search system
 * Build in search options (searched by payment history, by employee, by department etc)
 * Build in searched by wrong words, searched by initial.. (aka, error input forgiveness)
 * Different search system in terms of different users (Backup probably want to generate database history)
 
-#User instruction in terms of interface
+## User instruction in terms of interface
 * Build the instructions of the system of account number for each type of user
 * Build in user instruction after they sign up and first time use the payroll system (probably with cute arrow)
 * Build in online html instructions with vividely screenshots (in case user searched by google for solution)
