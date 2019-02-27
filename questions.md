@@ -154,3 +154,42 @@ If it's system developed company:
 * How will the system receive data: reading from files or receiving user input? MK
 * In your company, which departments does the payroll system need to keep track of?
 * Can all employees view all other employees information?
+
+## HR management
+* Do you want to track employee's paid time off?
+* How do you want to manage Employee information?
+* Do you want to be able to manage employees benefits?
+* What kind of information records do you want to keep of your employees?
+
+## Payroll processing/management
+* Will you allow for direct deposit?
+* What payment options do you want available?
+* Do you want the system to create checks?
+* Should we keep track of bonuses?
+* Do you want a page to analyze payroll information?
+* What kind of information do you want analyzed
+
+## Employee management
+* Will employees clock in to our system?
+* Do you want system to manage/track employee attendance at work?
+* Will employees have access to system mobiley?
+* Overtime calculators?
+* Employee scheduling?
+* Scheduling alerts?
+
+## Tax Services
+* Fed, state, and local tax calculations?
+* Automated tax document completion?
+* Automated tax document filing/mailing?
+
+## System reports
+* Should we generate payroll reports?
+* Generate a budget for the company?
+* Alerts for next payroll?
+* Alerts for upcoming overtime?
+* Employee performance reports? (attendance)
+
+## Compliance management
+* Track employee paperwork completion?
+* Healthcare/other compliance paperwork?
+* Compliance paperwork database? 
