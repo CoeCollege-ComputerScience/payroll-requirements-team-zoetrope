@@ -17,7 +17,7 @@
 * What O.S. does it need to run on? DY
 * Will you need to add more levels/groups of pay? AG
 * Will this system handle bonuses? AG
-* What laws/regulations govern this system?
+* What laws/regulations govern this system?  NL
 * What information does the system need to keep track of? AG
 * What will the backup system be?
 * How frequently are employees paid? AG
@@ -25,7 +25,6 @@
 * What will the system actually generate/what reports will it create? AG
 * What will be sent internally?
 * What will be sent externally?
-* Which users
 * Who will be able to have access to this application and how (e.g. just viewing or editing)? AG
 * Is the application completely new ? (need making a whole stuff) or IS there another application which is already used ? (improve some functions)
 * How do users access the system, website, app or other? AG
@@ -34,7 +33,7 @@
 * What kinds of employee are there ? e.g. full time part time J1 VISA(non resident) intern?
 * How would you like to deal with when the system broke down (Any back-up plan ?)
 * What information is being stored for each employee? AG
-* How many payrolls do your company will generate on average per second as you estimate?
+* How many payrolls do your company will generate on average per second as you estimate? NL
 * What is the database are you using? AG
 * What types of network and device are you using? AG
 * When do you expect us to generate first release of the payroll system?
@@ -47,7 +46,7 @@
 ## Configuration information
 * How much authorization do you want to assign to each types of user? AG
 * Which part of setting you want to be determined by yourself? AG
-* Who in your company has authorization to determine all the setting and see everyone's information?
+* Who in your company has authorization to determine all the setting and see everyone's information? NL
 
 
 ## Login
@@ -192,4 +191,4 @@ If it's system developed company:
 ## Compliance management
 * Track employee paperwork completion?
 * Healthcare/other compliance paperwork?
-* Compliance paperwork database? 
+* Compliance paperwork database?
