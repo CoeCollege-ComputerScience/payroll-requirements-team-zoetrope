@@ -1,4 +1,5 @@
-﻿# General Requirements
+
+# General Requirements
 * The user can view information about the current pay period.
 * The user can request a report to be generated for the current pay period.
 * The system can handle an arbitrary amount of employees (dynamically allocated memory).
@@ -9,6 +10,9 @@
 * System can handle arbitrary amount of money when input.
 * System can handle an arbitrary amount of users.
 * There are three general types of users: admins, departmental head, and employees.
+* The system complies with all federal U.S. business laws.
+* The system complies with all state business laws.
+* The System complies with all international business laws.
 
 # Payment information
 * User can request payment in check or direct deposit.
@@ -69,7 +73,7 @@
 * department head users can request departmental payment reports
 
 # regular employee user requirements
-* employee user can change personal information 
+* employee user can change personal information
   * address
   * payment method (direct deposit vs. check)
   * etc.
@@ -114,6 +118,9 @@
   * estimated income tax deduction
   * current payment period status: not yet generated, generated and processing, dispensed
   * projected net income after tax reductions
+  * Total medical coverage cost for the pay period
+  * Deductions for insurance for the pay period
+  * Deductions for retirement for the pay period
   * hours of work, if user is hourly paid
 * The system can generate personal reports for any past pay period
 * The system will generate unofficial reports in real time for each type of employees, which contain:
@@ -131,6 +138,7 @@
   * personal reports for each departmental employee
   * total man-hours of work by hourly workers for a department
   * tax information for each departmental employee
+* System can process and produce 20,000 records per minute.
 
 # The following seem a little extraneous and/or difficult to understand, or redundant
 
@@ -169,9 +177,7 @@
   * format options (add format otions here for the department of government)
 
 ## Regulation
-* If position is in a state of U.S
-  * Follow the minimum wage policy of this state for the empolyees
-  * Follow the maximum charge amount policy of this state for the payments
+
 
 * Follow the private policy for the country
   * User private policy
