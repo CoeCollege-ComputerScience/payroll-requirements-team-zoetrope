@@ -56,6 +56,7 @@
 * The system will calculate overtime pay for hourly workers, including weekend pay.
 * Suspended employees receive no payment.
 * System can handle taxes and bonuses.
+* System can handle the amount of health insurance. 
 * The system can have pages(screens) below
   * Login: Login based on access rights (watch one's own, watch everyone or can edit/add data)
   * Home(for managers ?): showing a list of employees and their basic payroll information
