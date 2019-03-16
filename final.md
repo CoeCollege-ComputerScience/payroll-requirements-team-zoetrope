@@ -25,7 +25,7 @@ Summary of why these requirements go here:
 
 # Could list
 ## These requirements are not necessary in the first release. However based off of the company's situations, e.g. having international employees, needs for handling actual payments as well as just generating payroll, or advanced searching systems, these features could added to the system in the later releases.   
-* Users can type employees' information by keyboard.    
+   
 * User can request payment in check or direct deposit.  
 * Managers can suspend employees.
 * the system will deal with different residence information   
