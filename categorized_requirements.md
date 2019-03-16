@@ -56,7 +56,7 @@
 * The system will calculate overtime pay for hourly workers, including weekend pay.
 * Suspended employees receive no payment.
 * System can handle taxes and bonuses.
-* System can handle the amount of health insurance. 
+* System can handle the amount of health insurance.
 * The system can have pages(screens) below
   * Login: Login based on access rights (watch one's own, watch everyone or can edit/add data)
   * Home(for managers ?): showing a list of employees and their basic payroll information
@@ -72,11 +72,17 @@
 * Build in online html instructions with vividely screenshots (in case user searched by google for solution)
 * If possiblee, build the short vedio for the instruction
 * According to government policy, before shipping, build the limitation of authorization of our stuff to access the customer's data
+* Payroll work flow is standard bi-weekly pay
 
 # Nonfunctional Requirements
 * (Are statements about quality of application (performance, etc))
 * System can handle arbitrary amount of money when input.
 * The system can handle an arbitrary amount of employees (dynamically allocated memory).
+* System can generate at least 300 hundreds payrolls per second in the first release.
+* SQL is used as production database.
+* Only command line (Unix and Windows) can be used as the platform.  
+
 
 # Implementation Requirements
 * (Temporary features to implement (migration scripts, etc))
+* SQL is used as development database.
