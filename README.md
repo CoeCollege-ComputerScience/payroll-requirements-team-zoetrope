@@ -1,6 +1,6 @@
 # This is our team readme file.
-## DEAD LINE is in March 26th 
-### Updated Thurs. Feb. 26th, 2019
+## DEADLINE is at noon in March 20th
+### Updated Sat. March 16th, 2019
 * The questions.md is for our combined questions.
    * Put your initials next to questions you've implemented in requirements.md.
    * Place any additional ideas for questions in New Questions section at the bottom of the file.

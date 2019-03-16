@@ -19,7 +19,7 @@
 * Will this system handle bonuses? AG
 * What laws/regulations govern this system?  NL
 * What information does the system need to keep track of? AG
-* What will the backup system be?
+* What will the backup system be? MK
 * How frequently are employees paid? AG
 * By which ways the employees receive their payments? AG
 * What will the system actually generate/what reports will it create? AG
@@ -31,12 +31,12 @@
 * How does the application deal with overtime? AG
 * How long will you give time to develop the system ? AG
 * What kinds of employee are there ? e.g. full time part time J1 VISA(non resident) intern?
-* How would you like to deal with when the system broke down (Any back-up plan ?)
+* How would you like to deal with when the system broke down (Any back-up plan ?) MK
 * What information is being stored for each employee? AG
 * How many payrolls do your company will generate on average per second as you estimate? NL
 * What is the database are you using? AG
 * What types of network and device are you using? AG
-* When do you expect us to generate first release of the payroll system?
+* When do you expect us to generate first release of the payroll system? MK
 
 ## Screens
 * What types of user interface design do you prefer? (such as concise, business...) AG
@@ -69,10 +69,10 @@
 * How and should the system handle employee suspensions?  NL
 
 ## Shipping time
-When do you expect us to generate first release of the payroll system?
+When do you expect us to generate first release of the payroll system? MK
 
 ## Screens
-1. What's platfrom are you going to use? Mobile or webpage?
+1. What's platfrom are you going to use? Mobile or webpage? MK
 2. What typs of user interface design do you prefer? (such as concise, business...)
 3. What is the main range of color do you want to use in use interface?
 4. What's input screen do you want for each type of user?
@@ -87,12 +87,12 @@ When do you expect us to generate first release of the payroll system?
 5. Do you watn us access to your credit history and generate credit report to certain organization?
 
 ##Work flow
-1. What is the payroll work flow in your company?
+1. What is the payroll work flow in your company? MK
 2. How is the salary paid? (Week based? Hour based? or other based)
 3. Who are going to pay? DY
 
 ## Login
-1. Do you company already has Employment ID system?
+1. Do you company already has Employment ID system? -> YES MK
 2. What is your prefer way to find back password?
 
 ## User types
@@ -114,13 +114,13 @@ When do you expect us to generate first release of the payroll system?
 3. Who in your company has authorization to determine all the setting and see everyone's information?
 
 ## Backup and Archieve
-1. What is backup strategy do your company usually follow?
-2. What is the database?
+1. What is backup strategy do your company usually follow? MK
+2. What is the database? MK
 3. Do you need us to send our stuff to help install the system?
 4. What types of debugging information do you want to see?
 
 ## Performance
-How many payrolls do your company will generate averagely per second?
+How many payrolls do your company will generate averagely per second? MK
 
 
 ## Determining Amount
@@ -152,7 +152,7 @@ If it's system developed company:
 * What level of encryption do you need?
 * How will the system receive data: reading from files or receiving user input? MK
 * In your company, which departments does the payroll system need to keep track of?
-* Can all employees view all other employees information?
+* Can all employees view all other employees information? -> NO MK
 
 ## HR management
 * Do you want to track employee's paid time off?
@@ -177,13 +177,13 @@ If it's system developed company:
 * Scheduling alerts?
 
 ## Tax Services
-* Fed, state, and local tax calculations?
+* Fed, state, and local tax calculations? MK
 * Automated tax document completion?
 * Automated tax document filing/mailing?
 
 ## System reports
-* Should we generate payroll reports?
-* Generate a budget for the company?
+* Should we generate payroll reports? MK
+* Generate a budget for the company? 
 * Alerts for next payroll?
 * Alerts for upcoming overtime?
 * Employee performance reports? (attendance)
