@@ -22,3 +22,16 @@
 Summary of why these requirements go here:
 ## business
 * bulleted list
+
+# Could list
+## These requirements are not necessary in the first release. However based off of the company's situations, e.g. having international employees, needs for handling actual payments instead of just generating payroll, or advanced searching systems, these features could added to the system in the later releases.   
+* Users can type employees' information by keyboard.    
+* User can request payment in check or direct deposit.  
+* Managers can suspend employees.
+* the system will deal with different residence information   
+  * U.S.
+  * J1 VISA
+  * H1 VISA
+  * other
+* Suspended employees receive no payment.    
+* Build in searched by wrong words, searched by initial.. (aka, error input forgiveness)    
