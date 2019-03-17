@@ -33,7 +33,7 @@ The requirements below are requirements that fall under the should category. The
 * Suspended employees are removed from payroll system. (Functional)
 
 # Could list
-## These requirements are not necessary in the first release. However based off of the company's situations, e.g. having international employees, needs for handling actual payments as well as just generating payroll, or advanced searching systems, these features could added to the system in the later releases.   
+###### These requirements are not necessary in the first release. However based off of the company's situations, e.g. having international employees, needs for handling actual payments as well as just generating payroll, or advanced searching systems, these features could added to the system in the later releases.   
 
 * User can request payment in check or direct deposit (User).  
 * the system will deal with different residence information (Functional)
@@ -55,3 +55,4 @@ The system will be accessed from the command line, so there is no need to implem
 * The system won't calculate the payment for employees by clocked hours. (Functional)
 * The system won't calculate overtime pay. (Functional)
 * The system won't allow employees to change their scheduled work hours. (Functional)
+
