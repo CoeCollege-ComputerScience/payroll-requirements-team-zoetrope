@@ -18,8 +18,18 @@ Masahiro Kiji, Danqi Yin
 
 * The system uses previously established databases of employee information to generate records.  Any changes to the database or the payroll system are stored in the database.
 
-# Should list
-Summary of why these requirements go here:
+## Should list
+The requirements below are requirements that fall under the should category. They are requirements that should be implemented but are not vital to the first version of our software. These requirements have to do with users adding and editing data in the payroll system. These are requirements that we aim to implement in the future to add functionality to our software but don't hinder the basic functionality of our software.
+* Admin users can edit/add employees' data. Such as personal information like name, payroll ID, position, date of payment, taxes and gross pay. (User)
+* change status for those who quit or retire from the company. (User)
+* Passwords for admin should change on a regular basis. (Functional)
+* Users can input employee information directly into the system manually. (User)
+* Admin can suspend employees. (User)
+* Suspended employees are removed from payroll system. (Functional)
+
+
+
+
 ## business
 * bulleted list
 
