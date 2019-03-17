@@ -7,12 +7,17 @@ Masahiro Kiji, Danqi Yin
 
 ## User requirements
 
-* The system will differentiate between three types of users, each with different access privileges.  Only accounting department employees will be given admin privileges.
+* The system will differentiate between three types of users on login, each with different access privileges.  Only accounting department employees will be given admin privileges.
 * Regular employee users can login to the system and view information about their current biweekly pay period and stored personal information.  They cannot view any other records for any other employee.  Personal information includes name, address, salary, position, tax rate, and medical costs.
-* Department head users have the access privileges of regular employee users.  Additionally, they can generate reports f
+* Department head users have the access privileges of regular employee users.  Additionally, they can generate reports for their department as a whole, which list total departmental pay, total taxes, total medical deductions, and a list of each individual employee's name and individual pay.  
+* Department head users can also request payment reports on individual employees within their department, but cannot view the personal information of other employees. To access this information, department heads can search for employees within their department by name or employee ID number.
+* Admin users have the access privileges of department head users. However, they can generate full reports on any individual employee in the company, including personal information.  To access this information, they can search for any employee in the company using name or employee ID number.
+* Admin users can also generate company-wide reports, which track department totals and the company total of employee pay, taxes, benefit deductions. Benefit deductions include (but are not limited to) medical insurance, dental coverage, retirement plans, and stocks.
 
 ## Functional
-* more things
+* The system must pull information from a previously established database to generate payroll reports.  Database information includes all pertinent information about employees.
+* Using database information, the system must calculate projected gross income, state tax, federal tax, benefit deductions, and net income, for a bi-weekly pay period.  Benefit deductions are the same as previously defined.
+* The system must have a search function that operates based upon the current user's privileges.  If the user is a standard employee, it should not be visible.  If the user is a department head, it should limit search results to those within that user's department.  If the user is an admin, search results should be company-wide.
 
 ## Implementation requirements:
 
