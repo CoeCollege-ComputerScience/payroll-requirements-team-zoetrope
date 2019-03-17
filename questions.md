@@ -88,7 +88,7 @@ When do you expect us to generate first release of the payroll system? MK
 
 ##Work flow
 1. What is the payroll work flow in your company? MK
-2. How is the salary paid? (Week based? Hour based? or other based)
+2. How is the salary paid? (Week based? Hour based? or other based) MK
 3. Who are going to pay? DY
 
 ## Login
@@ -183,7 +183,7 @@ If it's system developed company:
 
 ## System reports
 * Should we generate payroll reports? MK
-* Generate a budget for the company? 
+* Generate a budget for the company?
 * Alerts for next payroll?
 * Alerts for upcoming overtime?
 * Employee performance reports? (attendance)
