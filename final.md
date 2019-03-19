@@ -24,23 +24,24 @@ Andrew Gunsch, Nick Leonard, Dalton Kuehl, Masahiro Kiji, Danqi Yin
 * The system must use previously established databases of employee information to generate records.  Any changes to the database or the payroll system must be stored in the database.
 
 ## Should list
-The requirements below are requirements that fall under the should category. They are requirements that should be implemented but are not vital to the first version of our software. These requirements have to do with users adding and editing data in the payroll system. These are requirements that we aim to implement in the future to add functionality to our software but don't hinder the basic functionality of our software.
-* Admin users should be able to edit/add employees' data. Such as personal information like name, payroll ID, position, date of payment, taxes and gross pay. (User)
+The requirements below should be implemented but are not vital to the first version of our software. These requirements have to do with users adding and editing information in the database, and thus in the payroll system. These are requirements that we aim to implement in the future to add functionality to our software but don't hinder the basic functionality of our software.
+* Admin users canshould be able to edit/add employees' data. Such as personal information like name, payroll ID, position, date of payment, taxes and gross pay. (User)
 * Admin users should be able to change status for those who quit or retire from the company. (User)
 * Passwords for admin should change on a regular basis. (Functional)
 * Users should be able to input employee information directly into the system manually. (User)
 * Admin should be able to suspend employees. (User)
+* Suspended employees should be removed from payroll system. (Functional)
+* Any information changed by admin users should edit the information stored in the remote databases. (Functional)
 
 # Could list
-*These requirements are not necessary in the first release. However based off of the company's situations, e.g. having international employees, needs for handling actual payments as well as just generating payroll, or advanced searching systems, these features could added to the system in the later releases.*   
+These requirements are not necessary in the first release. However, based off of the company's situation, e.g. having international employees, needs for handling actual payments as well as just generating payroll, or advanced searching systems, these features could be added to the system in the later releases.   
 
 * User can request payment in check or direct deposit (User).  
-* the system will deal with different residence information (Functional)
-  * U.S.
-  * J1 VISA
-  * H1 VISA
-  * other   
-* Build in searched by wrong words, searched by initial.. (aka, error input forgiveness) (Functional)
+* Admin users can specify which payment methods employees receive (User).
+* Reports will generate as previously specified, but can also include the preferred payment method for each employee (functional).
+* The system can appropriately handle different employee residence information, such as U.S. citizens, J1 Visa holders, H1 Visa holders, and others. (Functional)
+* Search systems can include correction and attempt to find matches for misspelled entries. (Functional)
+
 
 # Won't list
 The system will be accessed from the command line, so there is no need to implement a Graphical User Interface. Likewise, the company is not interested in supporting hourly workers.
@@ -48,7 +49,6 @@ The system will be accessed from the command line, so there is no need to implem
 * The system won't support moving and clicking the computer mouse. (User)
 * The system won't display html pages. (User)
 * The system won't include html instructions or video instructions. (User)
-
 * The system won't support employees paid hourly. (Functional)
 * The system won't enable hourly workers to clock in and clock out. (Functional).
 * The system won't calculate the payment for employees by clocked hours. (Functional)
