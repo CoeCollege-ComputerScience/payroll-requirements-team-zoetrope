@@ -29,7 +29,6 @@ The system will be accessed from the command line, so there is no need to implem
 * The system won't support moving and clicking the computer mouse. (User)
 * The system won't display html pages. (User)
 * The system won't include html instructions or video instructions. (User)
-
 * The system won't support employees paid hourly. (Functional)
 * The system won't enable hourly workers to clock in and clock out. (Functional).
 * The system won't calculate the payment for employees by clocked hours. (Functional)
