@@ -40,11 +40,11 @@ The requirements below should be implemented but are not vital to the first vers
 # Could list
 These requirements are not necessary in the first release. However, based off of the company's situation, e.g. having international employees, needs for handling actual payments as well as just generating payroll, or advanced searching systems, these features could be added to the system in the later releases.   
 
-* User can request payment in check or direct deposit (User).  
-* Admin users can specify which payment methods employees receive (User).
-* Reports will generate as previously specified, but can also include the preferred payment method for each employee (functional).
-* The system can appropriately handle different employee residence information, such as U.S. citizens, J1 Visa holders, H1 Visa holders, and others. (Functional)
-* Search systems can include correction and attempt to find matches for misspelled entries. (Functional)
+* User could request payment in check or direct deposit (User).  
+* Admin users could specify which payment methods employees receive (User).
+* Reports will generate as previously specified, but could also include the preferred payment method for each employee (Functional).
+* The system could appropriately handle different employee residence information, such as U.S. citizens, J1 Visa holders, H1 Visa holders, and others. (Functional)
+* Search systems could include correction and attempt to find matches for misspelled entries. (Functional)
 
 
 # Won't list
