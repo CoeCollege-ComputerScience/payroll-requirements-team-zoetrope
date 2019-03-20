@@ -99,9 +99,9 @@
 
 # Security
 * The system tracks each login
-  * system records the ip and account of every login event
-  * if the ip is not previously recorded, the system sends the account email an alert including:
-    * the ip of the login
+  * system records the IP and account of every login event
+  * if the IP is not previously recorded, the system sends the account email an alert including:
+    * the IP of the login
     * the time of the login
 
 # Data storage/retention

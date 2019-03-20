@@ -9,8 +9,8 @@ Andrew Gunsch, Nick Leonard, Dalton Kuehl, Masahiro Kiji, Danqi Yin
 
 * The system must differentiate between three types of users on login, each with different access privileges.  Only accounting department employees will be given admin privileges.
 * Regular employee users can login to the system and view information about their current biweekly pay period and stored personal information.  They cannot view any other records for any other employee.  Personal information must include name, address, salary, position, federal tax rate, state tax rate, medical costs, and status.
-* Department head users must have the access privileges of regular employee users in the same department.  Additionally, they must be able to generate reports for their department as a whole, which list total departmental pay, total taxes, total medical deductions, and a list of each individual employee's name and individual pay.  
-* Department head users must be able to request payment reports on individual employees within their department as well, but cannot view the personal information of other employees. To access this information, department heads must be able to search for employees within their department by name or employee ID number.
+* Department head users must have the access privileges of all regular employee users in the same department.  Additionally, they must be able to generate reports for their department as a whole, which list total departmental pay, total taxes, total medical deductions, and a list of each individual employee's name and individual pay.  
+* Department head users must be able to request payment reports on individual employees within their department as well, but they cannot view the personal information of other employees. To access this information, department heads must be able to search for employees within their department by name or employee ID number.
 * Admin users must have the access privileges of department head users. However, they must be able to generate full reports on any individual employee in the company, including personal information.  To access this information, they must be able to search for any employee in the company using name or employee ID number.
 * Admin users must be able to generate company-wide reports, which track department totals and the company total of employee pay, taxes, benefit deductions. Benefit deductions include (but are not limited to) medical insurance, dental coverage, retirement plans, and stocks.
 
@@ -23,9 +23,13 @@ Andrew Gunsch, Nick Leonard, Dalton Kuehl, Masahiro Kiji, Danqi Yin
 
 * The system must use previously established databases of employee information to generate records.  Any changes to the database or the payroll system must be stored in the database.
 
-## Should list
+## Nonfunctional requirements:
+* The payroll system must be able to generate at least 300 payrolls per second in its first release.
+* The system must be able to handle arbitrary amounts of money and employees.
+
+# Should list
 The requirements below should be implemented but are not vital to the first version of our software. These requirements have to do with users adding and editing information in the database, and thus in the payroll system. These are requirements that we aim to implement in the future to add functionality to our software but don't hinder the basic functionality of our software.
-* Admin users canshould be able to edit/add employees' data. Such as personal information like name, payroll ID, position, date of payment, taxes and gross pay. (User)
+* Admin users should be able to edit/add employees' data. Such as personal information like name, payroll ID, position, date of payment, taxes and gross pay. (User)
 * Admin users should be able to change status for those who quit or retire from the company. (User)
 * Passwords for admin should change on a regular basis. (Functional)
 * Users should be able to input employee information directly into the system manually. (User)
@@ -44,13 +48,11 @@ These requirements are not necessary in the first release. However, based off of
 
 
 # Won't list
-The system will be accessed from the command line, so there is no need to implement a Graphical User Interface. Likewise, the company is not interested in supporting hourly workers.
-* The system won't have a GUI. (User)
-* The system won't support moving and clicking the computer mouse. (User)
-* The system won't display html pages. (User)
-* The system won't include html instructions or video instructions. (User)
-* The system won't support employees paid hourly. (Functional)
-* The system won't enable hourly workers to clock in and clock out. (Functional).
-* The system won't calculate the payment for employees by clocked hours. (Functional)
+These requirements are completely optional, and they do not present significant benefit to the company. They will not be included in the initial release of the product, but they may be considered for future releases. Some are requirements regarding the possibility of implementing a Graphical User Interface and supporting hourly workers. The payroll system is meant to be a command line program that the company can use to track payments to its salaried employees, so there is no need for either of these features.
+* Users won't be able to run the program through a GUI with a computer mouse. (User)
+* Users won't be able to view html pages for logging into the system, reading instructions, adding employees, editing records, or viewing archived information. (User)
+* The user won't be able to view video instructions. (User)
+* The payroll system won't enable hourly employees to clock in and out, and it won't calculate payment based on clocked hours. (Functional)
 * The system won't calculate overtime pay. (Functional)
-* The system won't allow employees to change their scheduled work hours. (Functional)
+* The system won't enable employees to change their scheduled work hours. (Functional)
+* The system won't allow employees to request an advance in their pay. (Functional)
