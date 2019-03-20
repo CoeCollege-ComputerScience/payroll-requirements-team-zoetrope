@@ -44,13 +44,11 @@ These requirements are not necessary in the first release. However, based off of
 
 
 # Won't list
-The system will be accessed from the command line, so there is no need to implement a Graphical User Interface. Likewise, the company is not interested in supporting hourly workers.
-* The system won't have a GUI. (User)
-* The system won't support moving and clicking the computer mouse. (User)
-* The system won't display html pages. (User)
-* The system won't include html instructions or video instructions. (User)
-* The system won't support employees paid hourly. (Functional)
-* The system won't enable hourly workers to clock in and clock out. (Functional).
-* The system won't calculate the payment for employees by clocked hours. (Functional)
+These requirements are completely optional, and they do not present significant benefit to the company. They will not be included in the initial release of the product, but they may be considered for future releases. Some are requirements regarding the possibility of implementing a Graphical User Interface and supporting hourly workers. The payroll system is meant to be a command line program that the company can use to track payments to its salaried employees, so there is no need for either of these features.
+* Users won't be able to run the program through a GUI with a computer mouse. (User)
+* Users won't be able to view html pages for logging into the system, reading instructions, adding employees, editing records, or viewing archived information. (User)
+* The user won't be able to view video instructions. (User)
+* The payroll system won't enable hourly employees to clock in and out, and it won't calculate payment based on clocked hours. (Functional)
 * The system won't calculate overtime pay. (Functional)
-* The system won't allow employees to change their scheduled work hours. (Functional)
+* The system won't enable employees to change their scheduled work hours. (Functional)
+* The system won't allow employees to request an advance in their pay.
